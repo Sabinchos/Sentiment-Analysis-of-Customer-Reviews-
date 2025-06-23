@@ -4,7 +4,7 @@
 
 В файле `data_parsing.ipynb` происходит сбор отзывов для пяти лидеров рынка недвижимости (ПИК, «Самолёт», А101, MR Group и «Донстрой») с популярных порталов (Novostroy-m.ru, Forum-zhk.com, Otzovik.com, Novostroev.ru). По итогам парсинга было получено 20 CSV-файлов (`forum-zhk_a101.csv`, `forum-zhk_donstroy.csv`, … ).
 
-# Этап 2: Объединение и предобработка
+## Этап 2: Объединение и предобработка
 
 В файле `combined_data.ipynb` выполняется приведение сырых CSV-файлов к одному формату, промежуточные результаты сохраняются в формате: `forum-zhk_a101_cleaned.csv`,`forum-zhk_donstroy_cleaned.csv`, … ), псоле чего CSV-файлы объединяются в итоговый датасет: `data_with_sentiment.xlsx`.
 
