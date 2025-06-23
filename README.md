@@ -1,4 +1,5 @@
 # Sentiment-Analysis-of-Customer-Reviews
+
 ## Этап 1: Парсинг данных
 
 В файле `data_parsing.ipynb` происходит сбор отзывов для пяти лидеров рынка недвижимости (ПИК, «Самолёт», А101, MR Group и «Донстрой») с популярных порталов (Novostroy-m.ru, Forum-zhk.com, Otzovik.com, Novostroev.ru). По итогам парсинга было получено 20 CSV-файлов (`forum-zhk_a101.csv`, `forum-zhk_donstroy.csv`, … ).
